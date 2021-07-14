@@ -6,12 +6,12 @@
     (input)="obtenerValorA($event)"
     placeholder="Escribe el operando A"
   /><br />
-  <label>Operando b:</label><br />
+  <label>Operando B:</label><br />
   <input
     type="number"
     (input)="obtenerValorB($event)"
     placeholder="Escribe el operando B"
   />
   <button (click)="sumar()">Sumar</button>
-  <p>{{ resultado }}</p>
+  <p>Resultado: {{ resultado }}</p>
 </div>

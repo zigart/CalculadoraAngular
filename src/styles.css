@@ -11,5 +11,6 @@ body{
     align-items: center;
     min-width: 100vw;
     min-height: 100vh;
+    
     background: linear-gradient(to bottom right, #051150, #6600aa);
 }

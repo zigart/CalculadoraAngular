@@ -6,9 +6,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-self: center;
+    justify-content: space-around;
     width: 30vw;
-    min-height: 50vh;
+    min-height: 70vh;
     border-radius: 10px;
     background: linear-gradient(to bottom right, #092094, #9900ff);
     box-shadow: 0px 10px 10px rgb(41, 41, 41);
@@ -18,4 +18,50 @@
  text-align: center;
  font-size: 40px;
  font-family: Arial, Helvetica, sans-serif;
+ margin: 20px 0 20px 0;
+}
+
+.contenedor label{
+    font-size: 20px;
+    align-self: flex-start;
+    margin-left: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: underline;
+}
+.contenedor input{
+    border-radius: 10px;
+    height: 30px;
+    background-color: rgb(10, 0, 36);
+    color: wheat;
+    padding: 10px;
+    
+    transition: 300ms;
+}
+
+.contenedor input:focus{
+    outline: none;
+    transition: 300ms;
+    transform: scale(1.2);
+    margin: 30px 0 30px 0;
+}
+
+.contenedor button{
+    margin: 20px 0 20px 0;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: rgb(126, 0, 88);
+    border: 2px solid black;
+    font-size: 15px;
+    transition: 300ms;
+}
+
+.contenedor button:hover{
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.contenedor p{
+    font-size: 20px;
+    margin-bottom: 10px;
 }
