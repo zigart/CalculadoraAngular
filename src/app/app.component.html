@@ -1,7 +1,17 @@
-<h1>Calculadora</h1>
-<label >Operando A:</label><br>
-<input type="number" (input)="obtenerValorA($event)" placeholder="Escribe el operando A"><br>
-<label >Operando b:</label><br>
-<input type="number" (input)="obtenerValorB($event)" placeholder="Escribe el operando B">
-<button (click)="sumar()">Sumar</button>
-<p>{{resultado}}</p>
+<div class="contenedor">
+  <h1>Calculadora</h1>
+  <label>Operando A:</label><br />
+  <input
+    type="number"
+    (input)="obtenerValorA($event)"
+    placeholder="Escribe el operando A"
+  /><br />
+  <label>Operando b:</label><br />
+  <input
+    type="number"
+    (input)="obtenerValorB($event)"
+    placeholder="Escribe el operando B"
+  />
+  <button (click)="sumar()">Sumar</button>
+  <p>{{ resultado }}</p>
+</div>
